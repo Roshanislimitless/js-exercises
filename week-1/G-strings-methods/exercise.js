@@ -1,3 +1,12 @@
-// Start by creating a variable `message`
+var greetingStart = "My name is ";
+var name = "Daniel";
+var name = name.trim();
 
-console.log(message);
+var namelength = name.length;
+var nameLowerCase = name.toLowerCase();
+var greeting = greetingStart + name;
+
+console.log(namelength);
+console.log(nameLowerCase);
+console.log(greeting + " and my name is " + namelength + " characters long");
+console.log(greetingStart, name, "and my name is " + namelength , "characters long")
