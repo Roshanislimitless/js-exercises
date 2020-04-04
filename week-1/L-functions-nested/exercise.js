@@ -1,5 +1,19 @@
-var mentor1 = "Daniel";
-var mentor2 = "Irina";
-var mentor3 = "Mimi";
-var mentor4 = "Rob";
-var mentor5 = "Yohannes";
+
+
+
+
+function greetings(mentor){
+    var upperCase = mentor.toUpperCase();
+    return upperCase;
+    
+}
+
+console.log(greetings("Daniel"));
+
+console.log(greetings("inina"));
+
+console.log(greetings("mimi"));
+
+console.log(greetings("rob"));
+
+console.log(greetings("yohannes"));
