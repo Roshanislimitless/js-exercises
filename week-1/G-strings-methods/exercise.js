@@ -9,4 +9,3 @@ var greeting = greetingStart + name;
 console.log(namelength);
 console.log(nameLowerCase);
 console.log(greeting + " and my name is " + namelength + " characters long");
-console.log(greetingStart, name, "and my name is " + namelength , "characters long")
