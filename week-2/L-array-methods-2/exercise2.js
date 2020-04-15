@@ -8,11 +8,10 @@
 */
 
 function capitalise(str) {
- var stringstr = str.split();
- var firstletter = str[0].toUpperCase();
- var finaljoin = firstletter.join(1);
-
- return firstletter;
+ var stringstr = str.split("");
+ var firstLetter = stringstr[0].toUpperCase();
+ var final = firstLetter + stringstr.slice(1).join("");
+ return final;
 
 }
 
